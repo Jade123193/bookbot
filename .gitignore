@@ -1,3 +1,6 @@
 /books
 **/.DS_Store
 __pycache__/
+*main.cpython-313.pyc
+*stats.cpython-313.pyc
+*stats_utils.cpython-313.pyc
