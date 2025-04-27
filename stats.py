@@ -28,7 +28,16 @@ def sort_on(dict):
     return dict["num"]
 
 
-def charcter_dict_to_sorted_list(character_dict: dict) -> list:
+def character_dict_to_sorted_list(character_dict: dict) -> list:
+    """
+    Convert a dictionary of character counts into a sorted list of dictionaries.
+
+    Args:
+        character_dict (dict): A dictionary where keys are characters and values are their counts.
+
+    Returns:
+        list: A list of dictionaries sorted by the count in descending order.
+    """
     sorted_list = []
     for ch in character_dict:
         sorted_list.append({"character": ch, "num": character_dict[ch]})
